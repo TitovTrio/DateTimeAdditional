@@ -1,5 +1,5 @@
 function allowVisa(people) {
-    return peopleWithVisa.filter(person => {
+    return people.filter(person => {
         if (Date.now() < passportExpirationDateParser(person.passportExpiration)) {
             return !person.criminalRecord;
         }
