@@ -38,5 +38,4 @@ const peopleWithVisa = [
 ];
 
 const result = allowVisa(peopleWithVisa);
-console.log(peopleWithVisa)
 console.log('result', result);
